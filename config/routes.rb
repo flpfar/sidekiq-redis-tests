@@ -4,5 +4,5 @@ Rails.application.routes.draw do
 
   root to: 'pages#index'
 
-  get '/report/:num', to: 'sales#report'
+  get '/report/:num', to: 'pages#report'
 end
